@@ -63,6 +63,23 @@
 					equal( translator.toWords(11000000), "sebelas juta");
 					equal( translator.toWords(21000000), "dua puluh satu juta");
 					equal( translator.toWords(999999999), "sembilan ratus sembilan puluh sembilan juta sembilan ratus sembilan puluh sembilan ribu sembilan ratus sembilan puluh sembilan");														
+
+					equal( translator.toWords(1000000000), "satu miliar");
+					equal( translator.toWords(1000000001), "satu miliar satu");
+					equal( translator.toWords(1000001001), "satu miliar satu ribu satu");
+					equal( translator.toWords(1001001001), "satu miliar satu juta satu ribu satu");
+					equal( translator.toWords(8011090021), "delapan miliar sebelas juta sembilan puluh ribu dua puluh satu");
+					equal( translator.toWords(9999999999), "sembilan miliar sembilan ratus sembilan puluh sembilan juta sembilan ratus sembilan puluh sembilan ribu sembilan ratus sembilan puluh sembilan");
+					equal( translator.toWords(10000000000), "sepuluh miliar");
+					equal( translator.toWords(100000000000), "seratus miliar");
+					equal( translator.toWords(1000000000000), "satu triliun");
+					equal( translator.toWords(9000000000009), "sembilan triliun sembilan");
+					equal( translator.toWords(9999999999999), "sembilan triliun sembilan ratus sembilan puluh sembilan miliar sembilan ratus sembilan puluh sembilan juta sembilan ratus sembilan puluh sembilan ribu sembilan ratus sembilan puluh sembilan");
+					equal( translator.toWords(10000000000000), "sepuluh triliun");
+					equal( translator.toWords(100000000000000), "seratus triliun");
+					equal( translator.toWords(909000000000000), "sembilan ratus sembilan triliun");
+					equal( translator.toWords(909909909207021), "sembilan ratus sembilan triliun sembilan ratus sembilan miliar sembilan ratus sembilan juta dua ratus tujuh ribu dua puluh satu");
+					equal( translator.toWords(999999999999999), "sembilan ratus sembilan puluh sembilan triliun sembilan ratus sembilan puluh sembilan miliar sembilan ratus sembilan puluh sembilan juta sembilan ratus sembilan puluh sembilan ribu sembilan ratus sembilan puluh sembilan");
 				});
 			};// onload
 		</script>
