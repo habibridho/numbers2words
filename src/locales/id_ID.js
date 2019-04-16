@@ -15,7 +15,7 @@ T2W.ID_ID.DICTIONARY = {
 	teens		:[ "sepuluh", "sebelas", "dua belas", "tiga belas", "empat belas", "lima belas", "enam belas", "tujuh belas", "delapan belas", "sembilan belas" ],
 	tens		:[ "", "", "dua puluh", "tiga puluh", "empat puluh", "lima puluh", "enam puluh", "tujuh puluh", "delapan puluh", "sembilan puluh" ],
 	hundred		:"ratus",
-	radix		:["", "ribu", "juta"],
+	radix		:["", "ribu", "juta", "miliar", "triliun"],
 	delimiters	:[" ", '']
 };
 
@@ -31,7 +31,7 @@ T2W.ID_ID.TOKEN_LENGTH = 3;
  * @constant
  * @type {number}
  */
-T2W.ID_ID.MAX_NUMBERS = 9;
+T2W.ID_ID.MAX_NUMBERS = 15;
 
 /**
  * Translate numbers to words
