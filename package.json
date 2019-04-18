@@ -7,7 +7,11 @@
 	},
 	"author": "Tomas Jurman <tomasjurman@gmail.com>",
 	"license": "MIT",
-	"keywords": ["number", "word", "converter"],
+	"keywords": [
+		"number",
+		"word",
+		"converter"
+	],
 	"main": "./build/numbers2words.min",
 	"repository": {
 		"type": "git",
